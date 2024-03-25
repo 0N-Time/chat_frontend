@@ -1,0 +1,87 @@
+body {
+    background-color: #301934;
+}
+
+.web-content {
+    background-color: #301934;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    width: 20%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    align-self: end;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.Input-form {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: darkgray;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.message-window {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #cccccc;
+    min-height: 500px;
+    max-height: 500px;
+    border: 2px solid #333;
+    outline: 3px solid black;
+    padding: 10px;
+    margin-bottom: 50px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    flex-grow: 1;
+    border-radius: 5px;
+}
+
+.thor-logo {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
